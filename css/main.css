@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@400;600;700;1000&display=swap');
+@import url('https://fonts.cdnfonts.com/css/tt-firs-neue-trl-Bol');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@800&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Nunito&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'nunito Sans', sans-serif;
+}
+
+html {
+    scroll-behavior: smooth;
+    height: 100%;
+    width: 100%;
+}
+
+h1 {
+    color: var(--white);
+}
+
+h2 {
+    color: var(--white);
+}
+
+p {
+    color: var(--white);
+}
+
+li {
+    color: var(--white);
+}
+
+button {
+    cursor: pointer;
+}
+
+body {
+    background-image: url("../imagens/5c51fb02-0e2b-4ceb-83cf-5b813a1c26ed.jfif");
+    background-size: cover;
+}
+
+a {
+    text-decoration: none;
+    color: var(--white);
+    cursor: pointer;
+}
+
+nav ul {
+    list-style: none;
+    position: absolute;
+    border: none;
+}
+  
+nav li {
+    display: inline-block;
+}
+  
+nav a {
+    display: block;
+    margin-bottom: 0rem;
+    text-decoration: none;
+    font-size: 1.5rem;
+}
+  
+nav a:hover {
+    background-color: var(--gray);
+    color: var(--white);
+}

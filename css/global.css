@@ -1,0 +1,1128 @@
+
+
+/*barra de navegação*/
+
+::-webkit-scrollbar{width:18px;height:5px;}
+::-webkit-scrollbar-button{background-color:none !important;width:5px;height:0px;}
+::-webkit-scrollbar-track-piece {background-color:var(--black);-webkit-border-radius:0px;}
+::-webkit-scrollbar-thumb:vertical{height:5px;background-color:var(--gray);-webkit-border-radius:0px;border-left: 0px solid var(--gray);border-right: 0px solid var(--gray);}
+::-webkit-scrollbar-thumb:horizontal{width:3px;background-color:var(--gray);-webkit-border-radius:0px;}
+::-webkit-scrollbar-button:vertical:increment {background-image:none !important;}
+::-webkit-scrollbar-button:vertical:decrement {background-image:none !important;}
+
+::-webkit-scrollbar {
+    width: 0.375rem
+} 
+
+body::-webkit-scrollbar-track {
+    background: var(--gray);
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: var(--gray); 
+}
+
+
+
+/*cabeçario*/
+
+#cabecario2 {
+    /* Rectangle 29 */
+    font-family:"TT Firs Neue Trl Bold";
+    position: absolute;
+    margin-top: 1.6rem;
+    width: 70rem;
+    height: 9rem;
+}
+
+#textgay {
+    margin-top: 3.5rem;
+    margin-left: 30rem;
+}
+
+.b {
+    margin-inline: 1rem;
+}
+
+#nomea {
+    position: absolute;
+    margin-top: 3.65rem;
+    transform: scale(1.5);
+    font-family: 'TT Firs Neue Trl', sans-serif;    
+    font-weight: 900;
+    margin-left: 12.5rem;
+}
+
+
+.menu_saturno {
+    margin-top: 1.8rem;
+    position: absolute;
+    transform: scale(1.5);
+    margin-left: 1rem;
+}
+
+
+
+
+/*pagina inicial*/
+
+.texto_einstein {
+    margin-top: 15rem;
+    margin-right: 5rem;
+    font-size: 2rem;
+    text-align: right;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.einstein {
+    margin-right: 5rem;
+    text-align: right;    
+    font-size: 1.22rem;
+    margin-top: 1rem;
+    margin-bottom: 15rem;
+}
+
+
+.delet {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: left;
+    margin-bottom: 15rem;
+}
+
+.delet h1 {
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    font-size: 3rem;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.delet h2 {
+    font-size: 1.5rem;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-bottom: 3rem;
+}
+
+.galaxia_inicial {
+    border-radius: 5rem;
+}
+
+.sist_solar {
+    border-radius: 2rem;
+    margin-inline: 2rem;
+
+}
+
+#parte_final {
+    border: var(--black) 2px solid;
+    margin-top: 2rem;
+    margin-bottom: 3rem;
+
+    display: flex;
+    justify-content: center;
+}
+
+
+#ver_galaxias {
+    padding-bottom: 8rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+
+/*sobre nos*/
+
+#sobre_nos {
+    padding-top: 15rem;
+    padding-bottom: 5rem;
+}
+
+.Nicolas, .Henrique, .Jonas, .Vinicius, .Giovanny, .Joao {
+    width: 20rem;
+    height: 20rem;
+}
+
+.Jonas {
+    margin-left: 0.5rem;
+}
+
+.Vinicius {
+    margin-left: 1.2rem;
+}
+
+.Nicolas {
+    margin-left: 0.6rem;
+}
+
+.Giovanny {
+    margin-left: 1.5rem;
+}
+
+.imagesob2 {
+    margin-top: 1rem;
+}
+
+.imagesob, .imagesob2 {
+    display: flex;
+    height: 100%;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    gap: 11rem;
+}
+
+.bro1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 22.5rem;
+}
+
+.bro3 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 24rem;
+}
+
+.bro2, .bro4 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 22rem;
+}
+
+.bro4 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 19rem;
+    padding-bottom: 2rem;
+}
+
+#fundo_padrao {
+    float: left;
+}
+
+.bro h2 {
+    display: inline-block;
+}
+
+.Joao_texto_2 {
+    margin-inline: 1rem;
+}
+
+
+/*planetas*/
+
+#pagina_dos_planetas {
+    padding-top: 5rem;
+    padding-bottom: 10rem;
+}
+
+.heuristica_2 {
+    padding-top: 10rem;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 3rem;
+    font-size: 2.5rem;
+}
+
+.linha_1_img, .linha_2_img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    gap: 9rem;
+    margin-bottom: 1rem;
+}
+
+.Terra_prime, .sol_prime, .netuno_prime {
+    height: 25rem;
+    width: 25rem;
+}
+
+.planetas1_texto {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 23rem;
+    font-size: 2rem;
+    margin-bottom: 2rem;
+}
+
+.planetas2_texto {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 26rem;
+    font-size: 2rem;
+    margin-bottom: 2rem;
+}
+
+
+.h1_1_sol {
+    margin-left:3rem;
+}
+
+.h1_5_venus {
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+
+.h1_4_marte {
+    margin-right: 1rem;
+}
+
+
+.marte_prime, .venus_prime, .jupter_prime {
+    height: 25rem;
+    width: 25rem;
+}
+
+.planetas3_texto {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 24rem;
+    font-size: 2rem;
+    margin-bottom: 2rem;
+}
+
+/*saturno*/
+
+.texto_saturno {
+    width: 100%;
+    height: 100%;
+}
+
+.img_saturno {
+    width: 20rem;
+    height: 20rem;
+}
+
+.saturno_t_i {
+    display: flex;
+    align-items: left;
+    justify-content: left;
+}
+
+.texto_saturno {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+    width: 100%;
+    height: 100%;
+    gap: 20rem;
+}
+
+.titulo_saturno {
+    margin-left: 9rem;
+    transform: scale(1);
+    margin-top: 15rem;
+    margin-bottom: 5rem;
+}
+
+.texto_saturno li {
+    height: 3.2rem;
+    font-size: 1.25rem;
+    margin-bottom:0.25rem;
+}
+
+/*Júpiter*/
+
+.teta_planeta {
+    width: 100%;
+    height: 100%;
+}
+
+.img_jupiter {
+    width: 20rem;
+    height: 20rem;
+}
+
+.jupiter_t_i {
+    display: flex;
+    align-items: left;
+    justify-content: left;
+}
+
+.teta_planeta {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+    width: 100%;
+    height: 100%;
+    gap: 20rem;
+}
+
+.titulo_jupiter {
+    margin-left: 9rem;
+    transform: scale(1);
+    margin-top: 15rem;
+    margin-bottom: 5rem;
+}
+
+.teta_planeta li {
+    height: 3.2rem;
+    font-size: 1.25rem;
+    margin-bottom:0.25rem;
+}
+
+/*Terra*/
+
+.terra_nvl1{
+    width: 100%;
+    height: 100%;
+}
+
+.terra_oreia {
+    width: 20rem;
+    height: 20rem;
+}
+
+.terra_t_i {
+    display: flex;
+    align-items: left;
+    justify-content: left;
+}
+
+.titulo_terra {
+    margin-left: 9rem;
+    transform: scale(1);
+    margin-top: 15rem;
+    margin-bottom: 5rem;
+}
+
+.terra_nvl1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+    width: 100%;
+    height: 100%;
+    gap: 5rem;
+}
+
+#pag_terra li {
+    height: 3.2rem;
+    font-size: 1.25rem;
+    margin-bottom:0.25rem;
+}
+
+/*Vênus*/
+
+.text_venos {
+    width: 100%;
+    height: 100%;
+}
+
+.img_venus {
+    width: 20rem;
+    height: 20rem;
+}
+
+.venus_t_i {
+    display: flex;
+    align-items: left;
+    justify-content: left;
+}
+
+.text_venos {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+    width: 100%;
+    height: 100%;
+    gap: 5rem;
+}
+
+.titulo_venus {
+    margin-left: 9rem;
+    transform: scale(1);
+    margin-top: 15rem;
+    margin-bottom: 5rem;
+}
+
+.text_venos li {
+    height: 3.2rem;
+    font-size: 1.25rem;
+    margin-bottom:0.25rem;
+}
+
+/*Mercúrio*/
+
+.texto_mercurio {
+    width: 100%;
+    height: 100%;
+}
+
+.vinicius_oreia {
+    width: 20rem;
+    height: 20rem;
+}
+
+.mercurio_t_i {
+    display: flex;
+    align-items: left;
+    justify-content: left;
+}
+
+.texto_mercurio {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+    width: 100%;
+    height: 100%;
+    gap: 22rem;
+}
+
+.titulo_mercurio {
+    margin-left: 9rem;
+    transform: scale(1);
+    margin-top: 15rem;
+    margin-bottom: 5rem;
+}
+
+.texto_mercurio li {
+    height: 3.2rem;
+    font-size: 1.25rem;
+    margin-bottom:0.25rem;
+}
+
+/*Marte*/
+
+.texto_marte {
+    width: 100%;
+    height: 100%;
+}
+
+.img_marte {
+    width: 20rem;
+    height: 20rem;
+}
+
+.marte_t_i {
+    display: flex;
+    align-items: left;
+    justify-content: left;
+}
+
+.texto_marte {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+    width: 100%;
+    height: 100%;
+    gap: 20rem;
+}
+
+.titulo_marte {
+    margin-left: 9rem;
+    transform: scale(1);
+    margin-top: 15rem;
+    margin-bottom: 5rem;
+}
+
+.texto_marte li {
+    height: 3.2rem;
+    font-size: 1.25rem;
+    margin-bottom:0.25rem;
+}
+
+/*Urano*/
+
+.azullllllllll {
+    width: 100%;
+    height: 100%;
+}
+
+.azuuuulllll2 {
+    width: 20rem;
+    height: 20rem;
+}
+
+.urano_t_i {
+    display: flex;
+    align-items: left;
+    justify-content: left;
+}
+
+.azullllllllll {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+    width: 100%;
+    height: 100%;
+    gap: 25rem;
+}
+
+.titulo_urano {
+    margin-left: 9rem;
+    transform: scale(1);
+    margin-top: 15rem;
+    margin-bottom: 5rem;
+}
+
+.azullllllllll li {
+    height: 3.2rem;
+    font-size: 1.25rem;
+    margin-bottom:0.25rem;
+}
+
+/*Netuno*/
+
+.texto_netuno {
+    width: 100%;
+    height: 100%;
+}
+
+.netuno_img {
+    width: 20rem;
+    height: 20rem;
+}
+
+.netuno_t_i {
+    display: flex;
+    align-items: left;
+    justify-content: left;
+}
+
+.texto_netuno {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+    width: 100%;
+    height: 100%;
+    gap: 20rem;
+}
+
+.titulo_netuno {
+    margin-left: 9rem;
+    transform: scale(1);
+    margin-top: 15rem;
+    margin-bottom: 5rem;
+}
+
+.texto_netuno li {
+    height: 3.2rem;
+    font-size: 1.25rem;
+    margin-bottom:0.25rem;
+}
+
+/*Sol*/
+
+.texto_sol {
+    width: 100%;
+    height: 100%;
+}
+
+.sol_img {
+    width: 20rem;
+    height: 20rem;
+}
+
+.sol_t_i {
+    display: flex;
+    align-items: left;
+    justify-content: left;
+}
+
+.texto_sol {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+    width: 100%;
+    height: 100%;
+    gap: 15rem;
+}
+
+.titulo_sol {
+    margin-left: 9rem;
+    transform: scale(1);
+    margin-top: 15rem;
+    margin-bottom: 5rem;
+}
+
+.texto_sol li {
+    height: 3.2rem;
+    font-size: 1.25rem;
+    margin-bottom:0.25rem;
+}
+
+/*Olho negro*/
+
+.titulo_olhonegro {
+    margin-left: 9rem;
+    transform: scale(1);
+    margin-top: 15rem;
+    margin-bottom: 5rem;
+}
+
+.mindomo {
+    display: flex;
+    align-items: left;
+    justify-content: left;
+}
+
+.textonegro {
+    margin-bottom: 10rem;
+}
+
+.olhonegro2 {
+    width: 40rem;
+    height: 40rem;
+    overflow: hidden;
+    display: flex;
+    align-items: end;
+}
+
+.olhonegro_t_i {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+    width: 100%;
+    height: 100%;
+}
+
+#pag_Olho li {
+    height: 3.2rem;
+    font-size: 1.25rem;
+    margin-bottom:0.25rem;
+}
+
+
+/*NGC3379*/
+
+.titulo_ngc3379 {
+    margin-left: 9rem;
+    transform: scale(1);
+    margin-top: 15rem;
+    margin-bottom: 5rem;
+}
+
+.tilt_negro {
+    display: flex;
+    align-items: left;
+    justify-content: left;
+}
+
+.textongc {
+    margin-bottom: 10rem;
+}
+
+.ngc3379_pag2 {
+    transform: scale(1);
+    overflow: hidden;
+}
+
+.ngc3379_t_i {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 12rem;
+}
+
+#pag_ngc3379 li {
+    height: 3.2rem;
+    font-size: 1.25rem;
+    margin-bottom:0.25rem;
+
+}
+
+/*Messier106*/
+
+.titulo_messier106 {
+    margin-left: 9rem;
+    transform: scale(1);
+    margin-top: 15rem;
+    margin-bottom: 5rem;
+}
+
+.planta_carnivora {
+    display: flex;
+    align-items: left;
+    justify-content: left;
+}
+
+.Messier106_2 {
+    transform: scale(1.5);
+    overflow: hidden;
+
+}
+
+.textomessi {
+    margin-bottom: 10rem;
+}
+
+.messier106_t_i {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    gap: 20rem;
+}
+
+#pag_Messier106 li {
+    height: 5rem;
+    font-size: 1.25rem;
+    margin-bottom:0.25rem;
+}
+
+/*Andromeda*/
+
+.titulo_andromeda {
+    margin-left: 9rem;
+    transform: scale(1);
+    margin-top: 15rem;
+    margin-bottom: 5rem;
+}
+
+.andromeda_2 {
+    transform: scale(1.5);
+    overflow: hidden;
+}
+
+.textandrome {
+    margin-bottom: 10rem;
+}
+
+.andromeda_t_i {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    gap: 27rem;
+}
+
+
+#pag_andromeda li {
+    height: 3rem;
+    font-size: 1.25rem;
+    margin-bottom:0.25rem;
+}
+
+/*Centaurus A*/
+
+
+.titulo_centaurusA {
+    margin-left: 9rem;
+    transform: scale(1);
+    margin-top: 15rem;
+    margin-bottom: 5rem;
+}
+
+.centaurusA_2 {
+    transform: scale(1);
+    overflow: hidden;
+}
+
+.textcentaur {
+    margin-bottom: 10rem;
+}
+
+.centaurusA_t_i {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    gap: 5rem;
+}
+
+
+#pag_centaurusA li {
+    height: 3rem;
+    font-size: 1.25rem;
+    margin-bottom:0.25rem;
+}
+
+/*messire*/
+
+.titulo_messier32 {
+    margin-left: 9rem;
+    transform: scale(1);
+    margin-top: 15rem;
+    margin-bottom: 5rem;
+}
+
+
+.tres_ratos {
+    display: flex;
+    align-items: left;
+    justify-content: left;
+}
+
+.textmessi2{
+    margin-bottom: 10rem;
+}
+
+.messier_t_i {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    gap: 15rem;
+}
+
+#pag_messier32 li {
+    height: 3rem;
+    font-size: 1.25rem;
+    margin-bottom:0.25rem;
+}
+
+
+/*galaxias*/
+
+#pagina_das_galaxias {
+    padding-top: 12rem;
+}
+
+.heuristica2 {
+
+    margin-bottom: 1rem;
+    
+    text-align: center;
+}
+
+.linha2_img , .linha1_img  {
+    display: flex;
+    height: 100%;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    gap: 11rem;
+}
+
+.galaxias_texto1, .galaxias_texto2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 24rem;
+}
+
+.galaxias_texto1 {
+    margin-bottom: 4rem;
+}
+
+.galaxias_texto2 {
+    bottom: 10rem;
+}
+
+/*quiz*/
+#quiz_inicial {
+    position: relative;
+}
+
+.terramini {
+    background: none;
+    border: none;
+    border-radius: 50%;
+    width: 16.5rem;
+    height: 16.5rem;
+    padding: 0;
+    margin: 0.625rem;
+    position: absolute;
+    left: 90%;
+}
+
+.quadrado {
+    width: 80rem; /* Largura do quadrado */
+    height: 45rem; /* Altura do quadrado */
+    background-color:#E3E3E3; /* Cor de fundo do quadrado */
+    border-radius: 2rem;
+    position: absolute;
+    margin-top: 12rem;
+    left: 16%;
+    align-items: center;
+}
+
+
+
+.quiz_titulo     {
+    color: black;
+    top: 27%;
+    left: 46%;
+    position: absolute;
+    font-weight: bold;
+    font-size: 4.5rem;
+
+}
+
+
+
+/* #botao_quiz {
+    position: absolute;
+    top: 85%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 1;
+    padding-inline: 12rem;
+    padding-block: 1rem;
+    background-color: var(--blue-violet);
+    border: none;
+    font-size: 2rem;
+}
+
+#fundo_quiz {
+    width: 100rem;
+    height: 45rem;
+    margin-left: 10rem;
+    margin-top: 3rem;
+}
+
+
+
+
+/*pergunta um*/
+
+#fundo_pergunta_quiz {
+    margin-left: 15rem;
+    margin-top: 5rem;
+}
+
+.pergunta_um_quiz {
+    position: relative;
+}
+
+#pergunta_um {
+    position: absolute;
+    top: 20%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 1;
+    font-size: 2.5rem;
+}
+
+.resp_a {
+    position: absolute;
+    top: 37%;
+    left: 26%;
+    transform: translate(-50%, -50%);
+    z-index: 1;
+    padding-block: 3rem;
+    padding-inline: 3rem;
+    font-size: 1.5rem;
+    background-color: var(--blue-violet);
+    color: var(--white);
+    border-radius: 1rem;
+}
+
+.resp_b {
+    position: absolute;
+    top: 55%;
+    left: 26%;
+    transform: translate(-50%, -50%);
+    z-index: 1;
+    padding-block: 3rem;
+    padding-inline: 5.1rem;
+    font-size: 1.5rem;
+    background-color: var(--blue-violet);
+    color: var(--white);
+    border-radius: 1rem;
+}
+
+.resp_c {
+    position: absolute;
+    top: 73%;
+    left: 26%;
+    transform: translate(-50%, -50%);
+    z-index: 1;
+    padding-block: 3rem;
+    padding-inline: 1.5rem;
+    font-size: 1.5rem;
+    background-color: var(--blue-violet);
+    color: var(--white);
+    border-radius: 1rem;
+}
+
+.resp_d {
+    position: absolute;
+    top: 37%;
+    left: 45%;
+    transform: translate(-50%, -50%);
+    z-index: 1;
+    padding-block: 3rem;
+    padding-inline: 1.5rem;
+    font-size: 1.5rem;
+    background-color: var(--blue-violet);
+    color: var(--white);
+    border-radius: 1rem;
+}
+
+.resp_e {
+    position: absolute;
+    top: 55%;
+    left: 45%;
+    transform: translate(-50%, -50%);
+    z-index: 1;
+    padding-block: 3rem;
+    padding-inline: 3.5rem;
+    font-size: 1.5rem;
+    background-color: var(--blue-violet);
+    color: var(--white);
+    border-radius: 1rem;
+}
+
+.resp_f {
+    position: absolute;
+    top: 73%;
+    left: 45%;
+    transform: translate(-50%, -50%);
+    z-index: 1;
+    padding-block: 3rem;
+    padding-inline: 3.5rem;
+    font-size: 1.5rem;
+    background-color: var(--blue-violet);
+    color: var(--white);
+    border-radius: 1rem;
+}
+
+
+
+
+/*fim quuiz*/
+
+#fundo_fim_quiz {
+    margin-top: 4rem;
+    margin-left: 17rem;
+}
+
+#parabens {
+    position: absolute;
+    top: 27%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 1;
+    font-size: 2.5rem;
+}
+
+#gabarito {
+    position: absolute;
+    top: 27%;
+    left: 77%;
+    transform: translate(-50%, -50%);
+    z-index: 1;
+    font-size: 2.5rem;
+}

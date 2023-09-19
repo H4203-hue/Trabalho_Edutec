@@ -1,0 +1,185 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@400;600;700;1000&display=swap');
+@import url('https://fonts.cdnfonts.com/css/tt-firs-neue-trl-Bol');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nunito&display=swap');
+
+:root {
+    --white:#ffffff;
+    --gray:#343a40;
+    --black:#000000;
+    --blue-violet:#8a2be2;
+    --black:#000000;
+    --red:#ff0000;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'nunito Sans', sans-serif;
+}
+
+a {
+    text-decoration: none;
+    color: var(--white);
+    cursor: pointer;
+}
+
+body {
+    background-image: url("../imagens/5c51fb02-0e2b-4ceb-83cf-5b813a1c26ed.jfif");
+    background-size: cover;
+}
+
+main {
+    background-color: #adb5bd; 
+    color: #000;
+    background: linear-gradient(45deg, #e0aaff, #c77dff, #9d4edd, #7b2cbf);
+    border-radius: 10px;
+    color: #10002b;
+    opacity: 0.9;
+}
+
+nav ul {
+    list-style: none;
+    position: absolute;
+    border: none;
+}
+  
+nav li {
+    display: inline-block;
+}
+  
+nav a {
+    display: block;
+    margin-bottom: 0rem;
+    text-decoration: none;
+    font-size: 1.5rem;
+}
+  
+nav a:hover {
+    background-color: var(--gray);
+    color: var(--white);
+}
+
+#cabecario2 {
+    /* Rectangle 29 */
+    font-family:"TT Firs Neue Trl Bold";
+    position: absolute;
+    margin-top: 1.6rem;
+    width: 70rem;
+    height: 9rem;
+}
+
+#textgay {
+    margin-top: 3.5rem;
+    margin-left: 30rem;
+}
+
+.b {
+    margin-inline: 1rem;
+}
+
+#nomea {
+    position: absolute;
+    margin-top: 3.65rem;
+    transform: scale(1.5);
+    font-family: 'TT Firs Neue Trl', sans-serif;    
+    font-weight: 900;
+    margin-left: 12.5rem;
+}
+
+
+.menu_saturno {
+    margin-top: 1.8rem;
+    position: absolute;
+    transform: scale(1.5);
+    margin-left: 1rem;
+}
+
+
+
+.corpo {
+    gap: 1.25rem; 
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 15rem;
+}
+
+
+
+.content {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    gap: 1rem; 
+}
+
+.spnQtd {
+    text-align: center;
+}
+
+.question {
+    background-color: #3c096c;
+    color: #fff;
+    padding: 1rem;
+    border-radius: 10px;
+    font-size: 1.25rem;
+}
+
+.answers {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+
+
+button {
+    width: 100%;
+    text-align: center; 
+    padding: 1rem; 
+    border: none;
+    color: white;
+    font-weight: 600; 
+    transition: background-color 0.3s;
+    width: 100%;
+    text-align: center; 
+    border-radius: 5px;
+    cursor: pointer;
+    background-color: #480ca8;
+
+}
+
+button:hover {
+    background-color: #3c096c; 
+}
+
+.finish {
+    display: none;
+    flex-direction: column;
+    gap: 1rem; 
+}
+
+.finish button {
+    text-align: center;
+}
+
+@media (min-width: 600px) {
+    main {
+        background-color: #adb5bd; 
+        padding: 20px; 
+        border-radius: 10px;
+        width: 85%;
+        max-width: 600px;
+        min-height: 300px; 
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        color: #000;
+        opacity: 0.8;
+    }
+}
